@@ -1,0 +1,54 @@
+Syntax: datatype[] variable_name = new datatype[size];
+Example: int[] rolllnos = new rolllnos[5];
+                    Or directly as
+         int[] rolllnos2 = {10,20,30,40,50};
+
+Explanantion:
+int[] rollnos; // declaration of array, rollnos i getting created in the STACK.
+rollnos = new int[5]; //initialization: actually here the object is been created in teh memory (HEAP).
+
+// 1. All objects are stored in HEAP.
+// 2. Heap objects are not continuous.
+// 3. Dynammic Memory Allocation
+// Hence it may not be continuous and depends on JVM.
+
+new keyword : new is used to create object
+
+2D Array:
+---------
+int[][] arr = new int[3][3]
+// Taking input from user
+for (int row=0; row < arr.length; row++) {
+    // for each col in every row
+    for (int col=0; col<arr[row].length; col++){
+        arr[row][col] = input.nextInt();
+    }
+}
+
+//Printing the 2D array
+for (int row=0; row < arr.length; row++){
+    for (int col=0; col < arr[row].length; col++){
+        System.out.print(arr[row][col]+ " ");
+    }
+    System.out.println();
+}
+
+//Printing the 2D array using Array To String
+ for (int row=0; row < arr.length; row++){
+     System.out.println(Arrays.ToString(arr[row]));
+ }
+
+ //Using Enhanced for loop
+ for (int[][] a : arr) {
+     System.out.println(Arrays.ToString(a));
+ }
+
+
+ ----------ARRAYLIST----------
+ Syntax:
+ ArrayList<Integer> list = new ArrayList<>();
+
+list.add(69);
+list.add(69);
+
+System.out.println(list);
