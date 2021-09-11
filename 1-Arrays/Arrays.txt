@@ -5,7 +5,7 @@ Example: int[] rolllnos = new rolllnos[5];
 
 Explanantion:
 int[] rollnos; // declaration of array, rollnos i getting created in the STACK.
-rollnos = new int[5]; //initialization: actually here the object is been created in teh memory (HEAP).
+rollnos = new int[5]; //initialization: actually here the object is been created in the memory (HEAP).
 
 // 1. All objects are stored in HEAP.
 // 2. Heap objects are not continuous.
