@@ -1,0 +1,37 @@
+Binary Search
+Worst complexity: O(log n)
+Average complexity: O(log n)
+Best complexity: O(1)
+Space complexity: O(1)
+
+Note: Binary Search works on sorted Arrays only.
+
+Example:
+Suppose in the given array we are searching for 17
+1. Divides the array in half so...
+    [ 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 ]
+    middle = (start + end) / 2
+    middle element -> 14
+    middle != target and middle < target so we move to right side
+
+    [ 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 ]  |  N -> N / 2^0    ->    N
+                      ^                        | 
+    1.              [14 , 15 , 16 , 17 , 18 ]  |  N/2 -> N / 2^1  ->    N/2
+                                ^              | 
+    Now again the we divide it in half         | 
+    So middle element now -> 16                | 
+    middle != target and middle < target       | 
+    so we move to right side                   | 
+                                               | 
+    2.                            [ 17 , 18 ]  |  N/2 * 1/2 -> N / 2^2 -> N/4 
+                                               | 
+    Now again the we divide it in half
+    So middle element now -> 17
+    middle == target !! 
+
+    N/2^k = 1  ->  N = 2^k
+    Taking log on both sides...
+    log(N) = log(2^k)
+    log N = k log 2
+    k = log N / log 2
+    k = log N to the base 2
