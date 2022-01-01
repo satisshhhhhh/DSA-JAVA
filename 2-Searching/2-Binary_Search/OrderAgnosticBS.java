@@ -11,7 +11,7 @@ public class OrderAgnosticBS {
         int start = 0;
         int end = arr.length - 1;
 
-        // find wherther arr is sorted in anscending or descending...
+        // find wherther arr is sorted in ascending or descending...
         boolean isAsc = arr[start] < arr[end];
 
         while (start <= end) {
