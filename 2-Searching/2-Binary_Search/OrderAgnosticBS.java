@@ -1,6 +1,6 @@
 public class OrderAgnosticBS {
     public static void main(String args[]) {
-        int[] arrAsc = { -17, -15, -11, -7, -4, 0, 1, 2, 5, 10, 11, 19 };
+        // int[] arrAsc = { -17, -15, -11, -7, -4, 0, 1, 2, 5, 10, 11, 19 };
         int[] arrDesc = { 99, 85, 77, 14, 13, 11, 10, 8, 0, -1, -8, -77 };
         int target = 11;
         int ans = orderAgnosticBS(arrDesc, target);
