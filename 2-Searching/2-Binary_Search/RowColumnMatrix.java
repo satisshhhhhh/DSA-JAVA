@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+// Matrix is sorted in row and column-wise manner
+
 public class RowColumnMatrix {
     public static void main(String[] args) {
         int[][] arr = {
