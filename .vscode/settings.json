@@ -1,6 +1,7 @@
 {
   "java.project.sourcePaths": [
     "2-Searching/2-Binary_Search",
-    "2-Searching/1-Linear_Search"
+    "2-Searching/1-Linear_Search",
+    "3-Sorting"
   ]
 }
