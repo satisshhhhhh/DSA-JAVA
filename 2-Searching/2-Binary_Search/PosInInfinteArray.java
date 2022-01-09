@@ -23,7 +23,7 @@ public class PosInInfinteArray {
         return binarySearch(arr, target, start, end);
     }
 
-    private static int binarySearch(int[] arr, int target, int start, int end) {
+    public static int binarySearch(int[] arr, int target, int start, int end) {
         while (start <= end) {
             int mid = start + (end - start) / 2;
 
@@ -36,7 +36,6 @@ public class PosInInfinteArray {
                 return mid;
             }
         }
-
         return -1;
     }
 
