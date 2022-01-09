@@ -11,7 +11,8 @@ public class Ceiling {
         int start = 0;
         int end = arr.length - 1;
 
-        // but what is the target is greater than the greatest number in the array
+        // but what if the target is greater than the greatest number in the array
+        // in that case No Ceiling
         if (target > arr[arr.length - 1]) {
             return -1;
         }
