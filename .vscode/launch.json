@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch RotatedBS",
+      "request": "launch",
+      "mainClass": "RotatedBS",
+      "projectName": "JAVA_4e0c91f8"
+    },
+    {
+      "type": "java",
       "name": "Launch SelectionSort",
       "request": "launch",
       "mainClass": "SelectionSort",
