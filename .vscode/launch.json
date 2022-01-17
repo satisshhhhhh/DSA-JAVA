@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch MissingNums",
+      "request": "launch",
+      "mainClass": "MissingNums",
+      "projectName": "JAVA_4e0c91f8"
+    },
+    {
+      "type": "java",
       "name": "Launch CycleSort",
       "request": "launch",
       "mainClass": "CycleSort",
