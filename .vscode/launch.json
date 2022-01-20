@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch FindAllDuplicates",
+      "request": "launch",
+      "mainClass": "FindAllDuplicates",
+      "projectName": "JAVA_4e0c91f8"
+    },
+    {
+      "type": "java",
       "name": "Launch FindDuplicates",
       "request": "launch",
       "mainClass": "FindDuplicates",
