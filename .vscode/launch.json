@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Concatenation",
+      "request": "launch",
+      "mainClass": "Concatenation",
+      "projectName": "JAVA_4e0c91f8"
+    },
+    {
+      "type": "java",
+      "name": "Launch BuildArrFromPermutation",
+      "request": "launch",
+      "mainClass": "BuildArrFromPermutation",
+      "projectName": "JAVA_4e0c91f8"
+    },
+    {
+      "type": "java",
       "name": "Launch Patterns",
       "request": "launch",
       "mainClass": "Patterns",
