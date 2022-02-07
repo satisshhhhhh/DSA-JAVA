@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch RunninSum",
+      "request": "launch",
+      "mainClass": "RunninSum",
+      "projectName": "JAVA_4e0c91f8"
+    },
+    {
+      "type": "java",
       "name": "Launch Concatenation",
       "request": "launch",
       "mainClass": "Concatenation",
