@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch RecursiveFibo",
+      "request": "launch",
+      "mainClass": "RecursiveFibo",
+      "projectName": "JAVA_4e0c91f8"
+    },
+    {
+      "type": "java",
+      "name": "Launch Reverse",
+      "request": "launch",
+      "mainClass": "Reverse",
+      "projectName": "JAVA_4e0c91f8"
+    },
+    {
+      "type": "java",
+      "name": "Launch primeNums",
+      "request": "launch",
+      "mainClass": "primeNums",
+      "projectName": "JAVA_4e0c91f8"
+    },
+    {
+      "type": "java",
       "name": "Launch RunninSum",
       "request": "launch",
       "mainClass": "RunninSum",
