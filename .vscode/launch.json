@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch BinarySearchRecursion",
+      "request": "launch",
+      "mainClass": "BinarySearchRecursion",
+      "projectName": "JAVA_4e0c91f8"
+    },
+    {
+      "type": "java",
       "name": "Launch RecursiveFibo",
       "request": "launch",
       "mainClass": "RecursiveFibo",
