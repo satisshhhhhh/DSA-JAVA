@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch SumOfDigitsUsingRecursion",
+      "request": "launch",
+      "mainClass": "SumOfDigitsUsingRecursion",
+      "projectName": "JAVA_4e0c91f8"
+    },
+    {
+      "type": "java",
+      "name": "Launch FactorialUsingRecursion",
+      "request": "launch",
+      "mainClass": "FactorialUsingRecursion",
+      "projectName": "JAVA_4e0c91f8"
+    },
+    {
+      "type": "java",
+      "name": "Launch RecursionPlayingAround",
+      "request": "launch",
+      "mainClass": "RecursionPlayingAround",
+      "projectName": "JAVA_4e0c91f8"
+    },
+    {
+      "type": "java",
       "name": "Launch BinarySearchRecursion",
       "request": "launch",
       "mainClass": "BinarySearchRecursion",
